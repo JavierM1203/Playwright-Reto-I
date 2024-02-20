@@ -6,13 +6,22 @@ namespace PlaywrightDemoCS.Page_Objects;
 public class LoginPage
 {
     private IPage _page;
-    public LoginPage(IPage page) => _page = page;
+    private readonly ILocator _username;
+    private readonly ILocator _password;
+    private readonly ILocator _loginButton;
+    private readonly ILocator _errorMessage;
+    private readonly ILocator _welcomeMessage;
 
-    public ILocator _username => _page.Locator("#username");
-    private ILocator _password => _page.Locator("#password");
-    private ILocator _loginButton => _page.Locator("#loginbtn");
-    private ILocator  _errorMessage => _page.Locator("#loginerrormessage");
-    private ILocator _welcomeMessage => _page.Locator(".welcome-note");
+
+    public LoginPage(IPage page) 
+    {
+        _page = page;
+        _username = page.Locator("#username");
+        _password = page.Locator("#password");
+        _loginButton = page.Locator("#loginbtn");
+        _errorMessage = page.Locator("#loginerrormessage");
+        _welcomeMessage = page.Locator(".welcome-note");
+    }
 
     public async Task GotoAsync() => await _page.GotoAsync("https://webasignatura.ucu.edu.uy/login/index.php");
 

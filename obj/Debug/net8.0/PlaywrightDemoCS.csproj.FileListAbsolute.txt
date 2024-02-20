@@ -399,3 +399,4 @@ C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\Playwr
 C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\PlaywrightDemoCS\obj\Debug\net8.0\PlaywrightDemoCS.pdb
 C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\PlaywrightDemoCS\obj\Debug\net8.0\PlaywrightDemoCS.genruntimeconfig.cache
 C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\PlaywrightDemoCS\obj\Debug\net8.0\ref\PlaywrightDemoCS.dll
+C:\Users\jmoreno\OneDrive - Universidad Católica del Uruguay\2024\RETO I\PlaywrightDemoCS\obj\Debug\net8.0\PlaywrightDemoCS.sourcelink.json
