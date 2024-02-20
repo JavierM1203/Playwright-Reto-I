@@ -6,11 +6,11 @@ namespace PlaywrightDemoCS.Page_Objects;
 public class LoginPage
 {
     private IPage _page;
-    private readonly ILocator _username;
-    private readonly ILocator _password;
-    private readonly ILocator _loginButton;
-    private readonly ILocator _errorMessage;
-    private readonly ILocator _welcomeMessage;
+    public ILocator _username { get; private set; }
+    public ILocator _password { get; private set; }
+    public ILocator _loginButton { get; private set; }
+    public ILocator _errorMessage { get; private set; }
+    public ILocator _welcomeMessage { get; private set; }
 
 
     public LoginPage(IPage page) 
